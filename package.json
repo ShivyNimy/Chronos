@@ -1,0 +1,32 @@
+{
+  "name": "chronos",
+  "version": "1.0.0",
+  "description": "Chronos — a complete atlas of world history",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "serve": "node scripts/serve.mjs",
+    "build:map": "node scripts/build-map.mjs",
+    "qa:geo": "node scripts/geocheck.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShivyNimy/Unika.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShivyNimy/Unika/issues"
+  },
+  "homepage": "https://github.com/ShivyNimy/Unika#readme",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "d3-geo": "^3.1.1",
+    "esbuild": "^0.24.0",
+    "jsdom": "^25.0.0",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
+  }
+}
